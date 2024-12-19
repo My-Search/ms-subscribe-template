@@ -6,11 +6,17 @@ https://github.com/My-Search
 # [标签][h'隐藏的标签']URL格式-搜索填充（会自动添加“可搜索”标签，直接回车进没有[[]]的内容，按tab可进入搜索子搜索模式，表示可以使用子搜索keyword填充。）
 https://www.baidu.com[[/s?wd={keyword}]]
 ----
+> [快捷链接1](https://www.baidu.com "链接title信息")
+> [快捷链接2](https://www.baidu.com "链接title信息")
+
 附加信息，支持`MD`
 
 # [标签][h'隐藏的标签']文本格式（描述信息）
 简要文档，支持`MD`
 ----
+> [快捷链接1](https://www.baidu.com "链接title信息")
+> [快捷链接2](https://www.baidu.com "链接title信息")
+
 附加信息，支持`MD`
 
 # [h'脚本'] 脚本名（左边这个标签是必须的，声明为此项为脚本页，脚本页包含应用项，应用项就是脚本页，如果只有-- script --就是普通的，如果还有-- view:html --、-- view:css --、-- view:js --，然后通过view.mount()挂载就是应用项）
