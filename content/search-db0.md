@@ -40,6 +40,7 @@ function main({ cache, $, view, registry, open }) {
   // });
 }
 -- view:html --
+<script src="https://cdn.ckeditor.com/ckeditor5/38.0.0/classic/ckeditor.js"></script>
 <span>Hello,world!</span>
 -- view:css --
 span {
