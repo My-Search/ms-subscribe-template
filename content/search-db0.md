@@ -64,8 +64,8 @@ alert('js执行了')
 //const selectedText = window.MS_SCRIPT_ENV.getSelectedText("请选择文本");
 //console.log("用户选择的文本:", selectedText);
 
-// 添加消息发送监听器
-//window.MS_SCRIPT_ENV.event.sendListener.push((keyword) => {
+// 添加消息发送监听器 (keyword是子搜索内容、files是在input粘贴的图片/文件)
+//window.MS_SCRIPT_ENV.event.sendListener.push((keyword,files) => {
 //    console.log("接收到消息:", keyword);
 //});
 
